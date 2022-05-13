@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GcW-27-nZt">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--PlayList-->
+        <scene sceneID="EO9-6l-nUf">
+            <objects>
+                <viewController id="aip-Aa-n0G" customClass="PlaylistViewController" customModule="Music_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gzf-Nu-J7X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="b0I-Px-3Di">
+                                <rect key="frame" x="0.0" y="112" width="414" height="784"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="784" id="4lb-9K-MMj"/>
+                                </constraints>
+                                <color key="separatorColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="songCell" textLabel="uGi-9E-pew" detailTextLabel="6ko-fB-pzb" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="9jh-Ay-K1T" customClass="SongTableViewCell" customModule="Music_Application" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9jh-Ay-K1T" id="po8-ck-5dg">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uGi-9E-pew">
+                                                    <rect key="frame" x="20" y="9" width="25" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6ko-fB-pzb">
+                                                    <rect key="frame" x="20" y="25.5" width="40.5" height="13.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yp3-vG-XIH"/>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b0I-Px-3Di" firstAttribute="centerX" secondItem="gzf-Nu-J7X" secondAttribute="centerX" id="c3M-Ef-zCM"/>
+                            <constraint firstItem="b0I-Px-3Di" firstAttribute="leading" secondItem="gzf-Nu-J7X" secondAttribute="leading" id="edb-6b-N8I"/>
+                            <constraint firstItem="b0I-Px-3Di" firstAttribute="bottom" secondItem="gzf-Nu-J7X" secondAttribute="bottom" id="stJ-Ay-NVP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="PlayList" id="Sl8-Yr-AvY">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="MST-hc-rWd"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="table" destination="b0I-Px-3Di" id="GfX-K3-49h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ULs-LM-RMR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3767" y="45"/>
+        </scene>
+        <!--HomeViewController-->
+        <scene sceneID="1M2-ln-jIm">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" title="HomeViewController" id="YBb-5l-6k2" customClass="HomeViewController" customModule="Music_Application" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Agv-eW-vTA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIq-45-t7B">
+                                <rect key="frame" x="122" y="77" width="160" height="37"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music For Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWI-Yf-CfF">
+                                <rect key="frame" x="145" y="122" width="124" height="24"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musicLogo-1" translatesAutoresizingMaskIntoConstraints="NO" id="9up-Bm-9iR">
+                                <rect key="frame" x="87" y="179" width="240" height="480"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQw-eo-Wic">
+                                <rect key="frame" x="87" y="667" width="240" height="62"/>
+                                <buttonConfiguration key="configuration" style="filled" title="PlayList" cornerStyle="large" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="aip-Aa-n0G" kind="show" id="fUF-gA-chV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPy-lT-uAm">
+                                <rect key="frame" x="87" y="751" width="240" height="44"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sign out" cornerStyle="large" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" type="italicSystem" pointSize="25"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xMs-W5-22T"/>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor"/>
+                        <constraints>
+                            <constraint firstItem="NQw-eo-Wic" firstAttribute="top" secondItem="9up-Bm-9iR" secondAttribute="bottom" constant="8" symbolic="YES" id="0rK-SZ-7ZV"/>
+                            <constraint firstItem="9up-Bm-9iR" firstAttribute="centerX" secondItem="Agv-eW-vTA" secondAttribute="centerX" id="7Xa-p6-odX"/>
+                            <constraint firstItem="xMs-W5-22T" firstAttribute="trailing" secondItem="NQw-eo-Wic" secondAttribute="trailing" constant="87" id="BXh-aL-bEV"/>
+                            <constraint firstItem="xWI-Yf-CfF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="xMs-W5-22T" secondAttribute="leading" id="EYH-VM-qJG"/>
+                            <constraint firstItem="9up-Bm-9iR" firstAttribute="top" secondItem="xWI-Yf-CfF" secondAttribute="bottom" constant="33" id="Gpk-Li-riy"/>
+                            <constraint firstItem="xWI-Yf-CfF" firstAttribute="centerX" secondItem="Agv-eW-vTA" secondAttribute="centerX" id="J69-Rm-xCQ"/>
+                            <constraint firstItem="xMs-W5-22T" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xWI-Yf-CfF" secondAttribute="trailing" id="Kz4-fd-fi3"/>
+                            <constraint firstItem="xMs-W5-22T" firstAttribute="trailing" secondItem="wIq-45-t7B" secondAttribute="trailing" constant="132" id="N2D-8j-0ck"/>
+                            <constraint firstItem="xMs-W5-22T" firstAttribute="trailing" secondItem="9up-Bm-9iR" secondAttribute="trailing" constant="87" id="QfT-pe-mdY"/>
+                            <constraint firstItem="wIq-45-t7B" firstAttribute="leading" secondItem="xMs-W5-22T" secondAttribute="leading" constant="122" id="R6v-0U-wr3"/>
+                            <constraint firstItem="wIq-45-t7B" firstAttribute="top" secondItem="Agv-eW-vTA" secondAttribute="top" constant="77" id="SD6-MO-gZt"/>
+                            <constraint firstItem="9up-Bm-9iR" firstAttribute="leading" secondItem="xMs-W5-22T" secondAttribute="leading" constant="87" id="TrL-yR-sqr"/>
+                            <constraint firstItem="xWI-Yf-CfF" firstAttribute="top" secondItem="wIq-45-t7B" secondAttribute="bottom" constant="8" symbolic="YES" id="Zr6-iE-VtT"/>
+                            <constraint firstItem="NQw-eo-Wic" firstAttribute="leading" secondItem="xMs-W5-22T" secondAttribute="leading" constant="87" id="bOx-QJ-laR"/>
+                            <constraint firstItem="SPy-lT-uAm" firstAttribute="top" secondItem="NQw-eo-Wic" secondAttribute="bottom" constant="22" id="dAI-OQ-lwd"/>
+                            <constraint firstItem="SPy-lT-uAm" firstAttribute="leading" secondItem="xMs-W5-22T" secondAttribute="leading" constant="87" id="iWY-PX-45R"/>
+                            <constraint firstItem="xMs-W5-22T" firstAttribute="bottom" secondItem="SPy-lT-uAm" secondAttribute="bottom" constant="67" id="qYT-pf-e9c"/>
+                            <constraint firstItem="xMs-W5-22T" firstAttribute="trailing" secondItem="SPy-lT-uAm" secondAttribute="trailing" constant="87" id="xin-NK-eOn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aKw-on-pll"/>
+                    <connections>
+                        <outlet property="playListButton" destination="SPy-lT-uAm" id="yZn-uo-r2V"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t85-v8-B40" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2871.0144927536235" y="44.866071428571423"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mIk-eb-r6s">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GcW-27-nZt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ju7-3N-PBF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YBb-5l-6k2" kind="relationship" relationship="rootViewController" id="Q0c-KP-X8f"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uuM-2p-9MI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1960.8695652173915" y="44.866071428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="musicLogo-1" width="480" height="480"/>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
