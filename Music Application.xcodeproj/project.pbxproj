@@ -10,6 +10,9 @@
 		03E0B6871B2D474948E8BB3B /* Pods_Music_ApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C022897B1756F18006B8CF2 /* Pods_Music_ApplicationTests.framework */; };
 		65455278F6DA032371C6B12D /* Pods_Music_Application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97455B0BDE5E65AB75C229D /* Pods_Music_Application.framework */; };
 		99C0887A2834C85200798B2A /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99C088792834C85200798B2A /* ParseSwift */; };
+		99C0887C2835000000798B2A /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0887B2835000000798B2A /* WelcomePageViewController.swift */; };
+		99C0887E283500CB00798B2A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0887D283500CB00798B2A /* SignInViewController.swift */; };
+		99C08880283506E600798B2A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0887F283506E600798B2A /* SignUpViewController.swift */; };
 		C5DF8004423B23477C2BE9C7 /* Pods_Music_Application_Music_ApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF0008F5038D09C598AF2B /* Pods_Music_Application_Music_ApplicationUITests.framework */; };
 		FF3AA44D282E661100468995 /* Justin Bieber-Love yourself.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF3AA44C282E661000468995 /* Justin Bieber-Love yourself.mp4 */; };
 		FF3AA450282E6FB100468995 /* Eminem-Love yourself.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF3AA44F282E6FB100468995 /* Eminem-Love yourself.mp4 */; };
@@ -59,6 +62,9 @@
 		7D19AA2754F5A8423D20950A /* Pods-Music Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Application.debug.xcconfig"; path = "Target Support Files/Pods-Music Application/Pods-Music Application.debug.xcconfig"; sourceTree = "<group>"; };
 		7F9F2429AD1DE2A2CD108397 /* Pods-Music ApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music ApplicationTests.debug.xcconfig"; path = "Target Support Files/Pods-Music ApplicationTests/Pods-Music ApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		84B32F90CF97A8E394E519A3 /* Pods-Music Application-Music ApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Application-Music ApplicationUITests.release.xcconfig"; path = "Target Support Files/Pods-Music Application-Music ApplicationUITests/Pods-Music Application-Music ApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99C0887B2835000000798B2A /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
+		99C0887D283500CB00798B2A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		99C0887F283506E600798B2A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		B7CF0008F5038D09C598AF2B /* Pods_Music_Application_Music_ApplicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Application_Music_ApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5A7D4C33C38DEA914AC993 /* Pods-Music Application-Music ApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Application-Music ApplicationUITests.debug.xcconfig"; path = "Target Support Files/Pods-Music Application-Music ApplicationUITests/Pods-Music Application-Music ApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E97455B0BDE5E65AB75C229D /* Pods_Music_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +145,6 @@
 				7F9F2429AD1DE2A2CD108397 /* Pods-Music ApplicationTests.debug.xcconfig */,
 				196896104DD453744D689F83 /* Pods-Music ApplicationTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -188,9 +193,9 @@
 				FF75B34D282BD3EB00C1931D /* Controller */,
 				FF75B34C282BD27300C1931D /* View */,
 				FF75B349282BD23D00C1931D /* Model */,
+				FF75B31D282BD1EF00C1931D /* ViewController.swift */,
 				FF75B319282BD1EF00C1931D /* AppDelegate.swift */,
 				FF75B31B282BD1EF00C1931D /* SceneDelegate.swift */,
-				FF75B31D282BD1EF00C1931D /* ViewController.swift */,
 				FF75B322282BD1F100C1931D /* Assets.xcassets */,
 				FF75B324282BD1F100C1931D /* LaunchScreen.storyboard */,
 				FF75B327282BD1F100C1931D /* Info.plist */,
@@ -237,6 +242,9 @@
 				FF75B34E282BD40300C1931D /* PlayListViewController.swift */,
 				FFA479BD282D1A9100480175 /* SongTableViewCell.swift */,
 				FFA479BB282CF8E100480175 /* HomeViewController.swift */,
+				99C0887B2835000000798B2A /* WelcomePageViewController.swift */,
+				99C0887D283500CB00798B2A /* SignInViewController.swift */,
+				99C0887F283506E600798B2A /* SignUpViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -515,8 +523,11 @@
 			files = (
 				FF75B34F282BD40300C1931D /* PlayListViewController.swift in Sources */,
 				FF75B34B282BD25000C1931D /* Song.swift in Sources */,
+				99C0887C2835000000798B2A /* WelcomePageViewController.swift in Sources */,
 				FF75B31E282BD1EF00C1931D /* ViewController.swift in Sources */,
+				99C08880283506E600798B2A /* SignUpViewController.swift in Sources */,
 				FFA479BE282D1A9100480175 /* SongTableViewCell.swift in Sources */,
+				99C0887E283500CB00798B2A /* SignInViewController.swift in Sources */,
 				FF75B31A282BD1EF00C1931D /* AppDelegate.swift in Sources */,
 				FF75B31C282BD1EF00C1931D /* SceneDelegate.swift in Sources */,
 				FFA479BC282CF8E200480175 /* HomeViewController.swift in Sources */,
