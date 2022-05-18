@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03E0B6871B2D474948E8BB3B /* Pods_Music_ApplicationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C022897B1756F18006B8CF2 /* Pods_Music_ApplicationTests.framework */; };
+		65455278F6DA032371C6B12D /* Pods_Music_Application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97455B0BDE5E65AB75C229D /* Pods_Music_Application.framework */; };
+		99C0887A2834C85200798B2A /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99C088792834C85200798B2A /* ParseSwift */; };
+		C5DF8004423B23477C2BE9C7 /* Pods_Music_Application_Music_ApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF0008F5038D09C598AF2B /* Pods_Music_Application_Music_ApplicationUITests.framework */; };
 		FF3AA44D282E661100468995 /* Justin Bieber-Love yourself.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF3AA44C282E661000468995 /* Justin Bieber-Love yourself.mp4 */; };
 		FF3AA450282E6FB100468995 /* Eminem-Love yourself.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF3AA44F282E6FB100468995 /* Eminem-Love yourself.mp4 */; };
 		FF3AA452282E716500468995 /* All Time Low-Monsters.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF3AA451282E716500468995 /* All Time Low-Monsters.mp4 */; };
@@ -49,6 +53,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		196896104DD453744D689F83 /* Pods-Music ApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music ApplicationTests.release.xcconfig"; path = "Target Support Files/Pods-Music ApplicationTests/Pods-Music ApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		429F8FFFCD97716B35E19CA8 /* Pods-Music Application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Application.release.xcconfig"; path = "Target Support Files/Pods-Music Application/Pods-Music Application.release.xcconfig"; sourceTree = "<group>"; };
+		7C022897B1756F18006B8CF2 /* Pods_Music_ApplicationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_ApplicationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D19AA2754F5A8423D20950A /* Pods-Music Application.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Application.debug.xcconfig"; path = "Target Support Files/Pods-Music Application/Pods-Music Application.debug.xcconfig"; sourceTree = "<group>"; };
+		7F9F2429AD1DE2A2CD108397 /* Pods-Music ApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music ApplicationTests.debug.xcconfig"; path = "Target Support Files/Pods-Music ApplicationTests/Pods-Music ApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84B32F90CF97A8E394E519A3 /* Pods-Music Application-Music ApplicationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Application-Music ApplicationUITests.release.xcconfig"; path = "Target Support Files/Pods-Music Application-Music ApplicationUITests/Pods-Music Application-Music ApplicationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7CF0008F5038D09C598AF2B /* Pods_Music_Application_Music_ApplicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Application_Music_ApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5A7D4C33C38DEA914AC993 /* Pods-Music Application-Music ApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Application-Music ApplicationUITests.debug.xcconfig"; path = "Target Support Files/Pods-Music Application-Music ApplicationUITests/Pods-Music Application-Music ApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E97455B0BDE5E65AB75C229D /* Pods_Music_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3AA44C282E661000468995 /* Justin Bieber-Love yourself.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Justin Bieber-Love yourself.mp4"; sourceTree = "<group>"; };
 		FF3AA44F282E6FB100468995 /* Eminem-Love yourself.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eminem-Love yourself.mp4"; sourceTree = "<group>"; };
 		FF3AA451282E716500468995 /* All Time Low-Monsters.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All Time Low-Monsters.mp4"; sourceTree = "<group>"; };
@@ -82,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99C0887A2834C85200798B2A /* ParseSwift in Frameworks */,
+				65455278F6DA032371C6B12D /* Pods_Music_Application.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03E0B6871B2D474948E8BB3B /* Pods_Music_ApplicationTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,12 +112,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DF8004423B23477C2BE9C7 /* Pods_Music_Application_Music_ApplicationUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07D508A01458EE2A7165D4CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E97455B0BDE5E65AB75C229D /* Pods_Music_Application.framework */,
+				B7CF0008F5038D09C598AF2B /* Pods_Music_Application_Music_ApplicationUITests.framework */,
+				7C022897B1756F18006B8CF2 /* Pods_Music_ApplicationTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8F542985C2C4F4B530A067 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D19AA2754F5A8423D20950A /* Pods-Music Application.debug.xcconfig */,
+				429F8FFFCD97716B35E19CA8 /* Pods-Music Application.release.xcconfig */,
+				DB5A7D4C33C38DEA914AC993 /* Pods-Music Application-Music ApplicationUITests.debug.xcconfig */,
+				84B32F90CF97A8E394E519A3 /* Pods-Music Application-Music ApplicationUITests.release.xcconfig */,
+				7F9F2429AD1DE2A2CD108397 /* Pods-Music ApplicationTests.debug.xcconfig */,
+				196896104DD453744D689F83 /* Pods-Music ApplicationTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FF3AA44E282E668D00468995 /* Music Videos */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +166,8 @@
 				FF75B32F282BD1F100C1931D /* Music ApplicationTests */,
 				FF75B339282BD1F100C1931D /* Music ApplicationUITests */,
 				FF75B317282BD1EF00C1931D /* Products */,
+				BD8F542985C2C4F4B530A067 /* Pods */,
+				07D508A01458EE2A7165D4CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,15 +248,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF75B340282BD1F100C1931D /* Build configuration list for PBXNativeTarget "Music Application" */;
 			buildPhases = (
+				4521E5496E2FB95F7ED87CF6 /* [CP] Check Pods Manifest.lock */,
 				FF75B312282BD1EF00C1931D /* Sources */,
 				FF75B313282BD1EF00C1931D /* Frameworks */,
 				FF75B314282BD1EF00C1931D /* Resources */,
+				65F8E408EF8E5154D3F0C62B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Music Application";
+			packageProductDependencies = (
+				99C088792834C85200798B2A /* ParseSwift */,
+			);
 			productName = "Music Application";
 			productReference = FF75B316282BD1EF00C1931D /* Music Application.app */;
 			productType = "com.apple.product-type.application";
@@ -222,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF75B343282BD1F100C1931D /* Build configuration list for PBXNativeTarget "Music ApplicationTests" */;
 			buildPhases = (
+				29541983619D7B27BB6DAC76 /* [CP] Check Pods Manifest.lock */,
 				FF75B328282BD1F100C1931D /* Sources */,
 				FF75B329282BD1F100C1931D /* Frameworks */,
 				FF75B32A282BD1F100C1931D /* Resources */,
+				29B7B3F7396A33E11094B9C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,9 +290,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF75B346282BD1F100C1931D /* Build configuration list for PBXNativeTarget "Music ApplicationUITests" */;
 			buildPhases = (
+				19B38C48360E6F84E6BF59A6 /* [CP] Check Pods Manifest.lock */,
 				FF75B332282BD1F100C1931D /* Sources */,
 				FF75B333282BD1F100C1931D /* Frameworks */,
 				FF75B334282BD1F100C1931D /* Resources */,
+				67B3131E2C8956EE1463ECAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,6 +338,9 @@
 				Base,
 			);
 			mainGroup = FF75B30D282BD1EF00C1931D;
+			packageReferences = (
+				99C088782834C85200798B2A /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+			);
 			productRefGroup = FF75B317282BD1EF00C1931D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -332,6 +387,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B38C48360E6F84E6BF59A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Music Application-Music ApplicationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29541983619D7B27BB6DAC76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Music ApplicationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29B7B3F7396A33E11094B9C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music ApplicationTests/Pods-Music ApplicationTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music ApplicationTests/Pods-Music ApplicationTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Music ApplicationTests/Pods-Music ApplicationTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4521E5496E2FB95F7ED87CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Music Application-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65F8E408EF8E5154D3F0C62B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music Application/Pods-Music Application-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music Application/Pods-Music Application-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Music Application/Pods-Music Application-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B3131E2C8956EE1463ECAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music Application-Music ApplicationUITests/Pods-Music Application-Music ApplicationUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Music Application-Music ApplicationUITests/Pods-Music Application-Music ApplicationUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Music Application-Music ApplicationUITests/Pods-Music Application-Music ApplicationUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF75B312282BD1EF00C1931D /* Sources */ = {
@@ -516,6 +691,7 @@
 		};
 		FF75B341282BD1F100C1931D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D19AA2754F5A8423D20950A /* Pods-Music Application.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -544,6 +720,7 @@
 		};
 		FF75B342282BD1F100C1931D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429F8FFFCD97716B35E19CA8 /* Pods-Music Application.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -572,6 +749,7 @@
 		};
 		FF75B344282BD1F100C1931D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F9F2429AD1DE2A2CD108397 /* Pods-Music ApplicationTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -592,6 +770,7 @@
 		};
 		FF75B345282BD1F100C1931D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196896104DD453744D689F83 /* Pods-Music ApplicationTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -612,6 +791,7 @@
 		};
 		FF75B347282BD1F100C1931D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5A7D4C33C38DEA914AC993 /* Pods-Music Application-Music ApplicationUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -630,6 +810,7 @@
 		};
 		FF75B348282BD1F100C1931D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B32F90CF97A8E394E519A3 /* Pods-Music Application-Music ApplicationUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -686,6 +867,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99C088782834C85200798B2A /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99C088792834C85200798B2A /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99C088782834C85200798B2A /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF75B30E282BD1EF00C1931D /* Project object */;
 }

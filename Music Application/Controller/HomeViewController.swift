@@ -6,10 +6,12 @@
 //
 
 import UIKit
-
+import Parse
 class HomeViewController : UIViewController {
     
     @IBOutlet weak var playListButton: UIButton!
+    
+    @IBOutlet weak var signOutButton: UIButton!
     
     //Button text italic, size and underline
     let buttonStyle: [NSAttributedString.Key: Any] = [
@@ -32,5 +34,8 @@ class HomeViewController : UIViewController {
     }
     
     
+    @IBAction func signOut(_ sender: Any) {
+        PFUser.logOut()
+    }
 }
 
