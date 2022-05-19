@@ -12,6 +12,9 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var txtUsernameSignin: UITextField!
     @IBOutlet weak var txtPasswordSignin: UITextField!
     @IBOutlet weak var indicatorLogin: UIButton!
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -34,6 +37,20 @@ class SignInViewController: UIViewController {
                 alert.addAction(okAction)
                 self.present(alert, animated: true)
             }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if(self.txtUsernameSignin.text!.isEmpty){ // If username is empty
+//            self.displayAlert(withTitle: "Error", message: error!.localizedDescription)
+            return false;
+        } else {
+            if (PFUser.current() == nil){
+                return false;
+            }
+            self.performSegue(withIdentifier: "GoToMain", sender: self)
+            
+        }
+        return true;
+    }
     /*
     // MARK: - Navigation
 

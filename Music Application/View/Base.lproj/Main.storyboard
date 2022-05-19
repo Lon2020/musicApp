@@ -296,7 +296,7 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="signin:" destination="L2W-KR-YXD" eventType="touchUpInside" id="2eS-Lj-bnU"/>
-                                            <segue destination="YBb-5l-6k2" kind="show" id="yu2-zs-TJ6"/>
+                                            <segue destination="YBb-5l-6k2" kind="show" identifier="GoToMain" id="yu2-zs-TJ6"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -409,7 +409,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OZx-Ec-UOg"/>
+        <segue reference="0JB-Yg-vuj"/>
         <segue reference="yu2-zs-TJ6"/>
     </inferredMetricsTieBreakers>
     <resources>
