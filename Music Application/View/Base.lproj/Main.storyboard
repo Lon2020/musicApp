@@ -98,7 +98,11 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQw-eo-Wic">
                                 <rect key="frame" x="87" y="667" width="240" height="62"/>
-                                <buttonConfiguration key="configuration" style="filled" title="PlayList" cornerStyle="large" titleAlignment="center">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="aW2-hb-OEG"/>
+                                    <constraint firstAttribute="height" constant="62" id="oTA-AU-OdW"/>
+                                </constraints>
+                                <buttonConfiguration key="configuration" style="filled" title="Songs" cornerStyle="large" titleAlignment="center">
                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle1"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
