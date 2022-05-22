@@ -2,7 +2,7 @@ Music application
   The Music application is created to improve the experiene of the listeners who love listening to music. 
   The user can enjoy their favorite songs with high quality music video with no high speed internet required.
 
-Github Link: 
+Github Link: https://github.com/Lon2020/musicApp
 
 Members:
 Sorakrit Wisawapakorn 13754306
