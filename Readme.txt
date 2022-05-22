@@ -35,7 +35,5 @@ Edoardo Menon 13243365
     This class handles the creation of all Songs, making a new Song Struct for each song, then providing a method to retrieve all songs which can be called anywhere within the application.
 
 Lingxi Yuan 14198764
-  - Signin
-  - Signup
-  - Signout
-  - Debugging and Testing
+  I do the sign in, register and log out functions. And I also do the debugging and testing part.
+  These functions use the ‘back4app’ cloud service and the ‘Parse SDK’ to achieve the goals. When the user type their username and password and then click ‘Sign Up’ button, the data will transfer safely to the back4app database in the cloud. Next time when the user click sign in page, they type corrent username and password, the screen will show text ‘login successful’, but if the data doesn’t match, the error message ‘Invalid username or password’ will appear. After go into the mainpage, user can click sign out button to go to the welcome page. 
