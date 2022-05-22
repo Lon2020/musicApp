@@ -18,44 +18,7 @@ class PlaylistViewController: UIViewController, UITableViewDelegate, UITableView
     var player = AVPlayer()
     var playerViewController = AVPlayerViewController()
     
-    var songs = [Song]()
-    let songList = [ Song(songName: "Congratulations",
-                          songArtist: "Post Malone ft.Quavo",
-                          songImageName: "congratulation",
-                          videoName: "Post Malone-Congratulations"),
-                     Song(songName: "Love yourself",
-                          songArtist: "Justin Bieber",
-                          songImageName: "Love yourself",
-                          videoName: "Justin Bieber-Love yourself"),
-                     Song(songName: "Savage",
-                          songArtist: "Post Malone ft.21 Savage",
-                          songImageName: "savage",
-                          videoName: "Post Malone-Savage"),
-                     Song(songName: "Lose yourself",
-                          songArtist: "Eminem",
-                          songImageName: "Lose yourself",
-                          videoName: "Eminem-Love yourself"),
-                     Song(songName: "Monsters",
-                          songArtist: "All Time Low",
-                          songImageName: "Monsters",
-                          videoName: "All Time Low-Monsters"),
-                     Song(songName: "Bohemian Rhapsody",
-                          songArtist: "Queen",
-                          songImageName: "Bohemian Rhapsody",
-                          videoName: "Queen-Bohemian Rhapsody"),
-                     Song(songName: "Shape of You",
-                          songArtist: "Ed Sheeran",
-                          songImageName: "Shap of You",
-                          videoName: "Ed Sheeran-Shape of You"),
-                     Song(songName: "Billionaire",
-                          songArtist: "Travie McCoy ft.Bruno Mars",
-                          songImageName: "Billionaire",
-                          videoName: "Travie McCoy-Billionaire"),
-                     Song(songName: "Sunflower",
-                          songArtist: "Post Malone ft.Swae Lee",
-                          songImageName: "sunflower",
-                          videoName: "Post Malone-Sunflower"),
-    ]
+    let songs = Songs();
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,13 +33,13 @@ class PlaylistViewController: UIViewController, UITableViewDelegate, UITableView
     
     // Number of Section
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return songList.count
+        return songs.getSongs().count;
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let songCell = tableView.dequeueReusableCell(withIdentifier: "songCell", for: indexPath)
-        let song = songList[indexPath.row]
+        let song = songs.getSongs()[indexPath.row]
         
         //Text font and size
         songCell.textLabel?.font = UIFont(name: "Helvetica-Bold", size: 18)
@@ -109,7 +72,7 @@ class PlaylistViewController: UIViewController, UITableViewDelegate, UITableView
     
     func playVideo(at indexPath: IndexPath)
     {
-        let selectedVideo = songList[indexPath.row]
+        let selectedVideo = songs.getSongs()[indexPath.row]
         let videoPath = Bundle.main.path(forResource: selectedVideo.videoName, ofType: "mp4")
         let videoPathURL = URL(fileURLWithPath: videoPath!)
         player = AVPlayer(url: videoPathURL)

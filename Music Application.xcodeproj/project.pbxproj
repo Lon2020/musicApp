@@ -13,6 +13,7 @@
 		99C0887C2835000000798B2A /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0887B2835000000798B2A /* WelcomePageViewController.swift */; };
 		99C0887E283500CB00798B2A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0887D283500CB00798B2A /* SignInViewController.swift */; };
 		99C08880283506E600798B2A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0887F283506E600798B2A /* SignUpViewController.swift */; };
+		B3E6BF5F2839FB3E0014DF57 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E6BF5E2839FB3E0014DF57 /* Songs.swift */; };
 		C5DF8004423B23477C2BE9C7 /* Pods_Music_Application_Music_ApplicationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CF0008F5038D09C598AF2B /* Pods_Music_Application_Music_ApplicationUITests.framework */; };
 		FF3AA44D282E661100468995 /* Justin Bieber-Love yourself.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF3AA44C282E661000468995 /* Justin Bieber-Love yourself.mp4 */; };
 		FF3AA450282E6FB100468995 /* Eminem-Love yourself.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF3AA44F282E6FB100468995 /* Eminem-Love yourself.mp4 */; };
@@ -65,6 +66,7 @@
 		99C0887B2835000000798B2A /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
 		99C0887D283500CB00798B2A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		99C0887F283506E600798B2A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B3E6BF5E2839FB3E0014DF57 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
 		B7CF0008F5038D09C598AF2B /* Pods_Music_Application_Music_ApplicationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Application_Music_ApplicationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5A7D4C33C38DEA914AC993 /* Pods-Music Application-Music ApplicationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Music Application-Music ApplicationUITests.debug.xcconfig"; path = "Target Support Files/Pods-Music Application-Music ApplicationUITests/Pods-Music Application-Music ApplicationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E97455B0BDE5E65AB75C229D /* Pods_Music_Application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Music_Application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				FF75B34A282BD25000C1931D /* Song.swift */,
+				B3E6BF5E2839FB3E0014DF57 /* Songs.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -531,6 +534,7 @@
 				FF75B31A282BD1EF00C1931D /* AppDelegate.swift in Sources */,
 				FF75B31C282BD1EF00C1931D /* SceneDelegate.swift in Sources */,
 				FFA479BC282CF8E200480175 /* HomeViewController.swift in Sources */,
+				B3E6BF5F2839FB3E0014DF57 /* Songs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
