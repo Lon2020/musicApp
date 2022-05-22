@@ -4,12 +4,14 @@ Music application
 
 Github Link: https://github.com/Lon2020/musicApp
 
+if cannot access the github link, please contact to this email: sorakrit.wisawapakorn-1@student.uts.edu.au
+
 Members:
 Sorakrit Wisawapakorn 13754306
 Edoardo Menon 13243365
 Lingxi Yuan 14198764
 
-*****Installation Guide******
+************Installation Guide**********
 1.  After cloning the project, open the terminal at the folder and run the command:
         $pod instll
 2.  If you have already opened your Xcode project close it. From now on you’ll open the workspace file instead of the project file. 
