@@ -81,8 +81,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Usa-T4-kF2">
-                                <rect key="frame" x="87" y="107.5" width="240" height="681"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Usa-T4-kF2">
+                                <rect key="frame" x="67" y="114" width="240" height="681"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BSF-yD-fxM">
                                         <rect key="frame" x="40" y="0.0" width="160" height="69"/>
@@ -363,9 +363,12 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musicLogo-1" translatesAutoresizingMaskIntoConstraints="NO" id="azO-4L-8SH">
-                                <rect key="frame" x="87" y="74" width="240" height="480"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musicLogo-1" translatesAutoresizingMaskIntoConstraints="NO" id="azO-4L-8SH">
+                                <rect key="frame" x="83.5" y="86" width="240" height="480"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="480" id="AG2-W3-NgF"/>
+                                    <constraint firstAttribute="width" constant="240" id="oU8-lv-WLb"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MR3-Ys-5f9"/>
@@ -373,7 +376,10 @@
                         <constraints>
                             <constraint firstItem="MR3-Ys-5f9" firstAttribute="trailing" secondItem="yKU-LO-mQt" secondAttribute="trailing" constant="132" id="CD1-14-xy1"/>
                             <constraint firstItem="yKU-LO-mQt" firstAttribute="top" secondItem="yGO-Vg-mGx" secondAttribute="topMargin" constant="30" id="HRi-S9-lxG"/>
+                            <constraint firstItem="azO-4L-8SH" firstAttribute="centerY" secondItem="yGO-Vg-mGx" secondAttribute="centerY" constant="-122" id="KNZ-Ef-5OF"/>
                             <constraint firstItem="yKU-LO-mQt" firstAttribute="leading" secondItem="MR3-Ys-5f9" secondAttribute="leading" constant="132" id="P2i-OI-8HL"/>
+                            <constraint firstItem="azO-4L-8SH" firstAttribute="centerX" secondItem="yGO-Vg-mGx" secondAttribute="centerX" id="YJK-hg-JO8"/>
+                            <constraint firstItem="azO-4L-8SH" firstAttribute="centerX" secondItem="yGO-Vg-mGx" secondAttribute="centerX" id="cp3-Xb-n6V"/>
                             <constraint firstItem="1cq-oo-qsl" firstAttribute="leading" secondItem="MR3-Ys-5f9" secondAttribute="leading" constant="40" id="dDT-gy-edr"/>
                             <constraint firstItem="MR3-Ys-5f9" firstAttribute="bottom" secondItem="1cq-oo-qsl" secondAttribute="bottom" constant="60" id="iSs-AP-3eM"/>
                             <constraint firstItem="MR3-Ys-5f9" firstAttribute="trailing" secondItem="1cq-oo-qsl" secondAttribute="trailing" constant="40" id="q06-Cl-iai"/>
@@ -465,9 +471,12 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="musicLogo-1" translatesAutoresizingMaskIntoConstraints="NO" id="bVM-in-ndh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="musicLogo-1" translatesAutoresizingMaskIntoConstraints="NO" id="bVM-in-ndh">
                                 <rect key="frame" x="87" y="74" width="240" height="480"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="480" id="E7l-hx-GHp"/>
+                                    <constraint firstAttribute="width" constant="240" id="hNf-Jr-ngz"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="d1a-0Q-OEH"/>
@@ -478,7 +487,9 @@
                             <constraint firstItem="nxL-s3-cYT" firstAttribute="leading" secondItem="d1a-0Q-OEH" secondAttribute="leading" constant="132" id="Wxe-iL-4N7"/>
                             <constraint firstItem="nxL-s3-cYT" firstAttribute="top" secondItem="lCZ-14-iTf" secondAttribute="topMargin" constant="30" id="aty-gh-shL"/>
                             <constraint firstItem="Zyu-ZM-Cvx" firstAttribute="leading" secondItem="d1a-0Q-OEH" secondAttribute="leading" constant="40" id="b9S-aZ-vyG"/>
+                            <constraint firstItem="bVM-in-ndh" firstAttribute="centerY" secondItem="lCZ-14-iTf" secondAttribute="centerY" constant="-134" id="cod-dQ-8AF"/>
                             <constraint firstItem="d1a-0Q-OEH" firstAttribute="bottom" secondItem="Zyu-ZM-Cvx" secondAttribute="bottom" constant="60" id="oBC-JW-nqg"/>
+                            <constraint firstItem="bVM-in-ndh" firstAttribute="centerX" secondItem="lCZ-14-iTf" secondAttribute="centerX" id="rG9-kv-2p5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TaQ-B2-o60"/>
@@ -494,8 +505,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0JB-Yg-vuj"/>
-        <segue reference="6yr-3v-zX2"/>
+        <segue reference="OBl-hm-qvt"/>
+        <segue reference="yu2-zs-TJ6"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="musicLogo-1" width="480" height="480"/>
